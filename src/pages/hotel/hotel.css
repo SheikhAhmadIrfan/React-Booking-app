@@ -1,0 +1,269 @@
+.hotelcontainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.hotelwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 1024px;
+    position: relative;
+}
+
+.hotelimagewrapper {
+    width: 32%;
+}
+
+.hotelimage {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid purple;
+    cursor: pointer;
+}
+
+.hoteltitle {
+    font-size: 25px;
+    border: 2px solid purple;
+    max-width: fit-content;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.hoteladdress {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.hoteldistance {
+    font-weight: 500;
+    color: purple;
+}
+
+.hotelprice {
+    font-weight: 500;
+    color: green;
+}
+
+.hotelimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hoteldetails {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.hoteldetailtext {
+    flex: 3;
+}
+
+.hoteldetailprice {
+    flex: 1 1;
+    background-color: rgb(214, 202, 202);
+    display: flex;
+    flex-direction: column;
+    padding: 5px 16px;
+    gap: 5px 20px;
+    border-radius: 5px;
+    height: 256px;
+    margin-top: 10px;
+}
+
+.hoteldesc {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.hoteldetailprice>h1 {
+    font-size: 18px;
+    color: purple;
+}
+
+.hoteldetailprice>span {
+    font-size: 15px;
+}
+
+.hoteldetailprice>h2 {
+    font-weight: 300;
+}
+
+.hoteldetailprice>button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.slider {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 98vw;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.sliderwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sliderimg {
+    width: 80%;
+    height: 80vh;
+}
+
+.close {
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: purple;
+}
+
+.arrow {
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    color: purple;
+}
+
+@media screen and (max-width: 1024px) {
+    .hotelwrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .hotelimagewrapper {
+        width: 100%;
+    }
+
+    .hoteldetails {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hoteltitle {
+        font-size: 20px;
+    }
+
+    .hoteladdress {
+        font-size: 12px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hoteldistance {
+        margin-top: 5px;
+    }
+
+    .hotelprice {
+        margin-top: 5px;
+    }
+
+    .hoteldetailprice {
+        height: auto;
+        padding: 20px;
+    }
+
+    .hoteldetailprice>h1 {
+        font-size: 16px;
+    }
+
+    .hoteldetailprice>span {
+        font-size: 13px;
+    }
+
+    .hoteldetailprice>h2 {
+        font-weight: 400;
+    }
+
+    .hoteldetailprice>button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hoteltitle {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+    .hoteladdress {
+        font-size: 10px;
+    }
+
+    .hoteldistance {
+        font-size: 12px;
+    }
+
+    .hotelprice {
+        font-size: 14px;
+    }
+
+    .hoteldesc {
+        font-size: 12px;
+    }
+
+    .hoteldetailprice {
+        margin-top: 20px;
+    }
+
+    .hoteldetailprice>h1 {
+        font-size: 14px;
+    }
+
+    .hoteldetailprice>span {
+        font-size: 11px;
+    }
+
+    .hoteldetailprice>h2 {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .hoteldetailprice>button {
+        font-size: 12px;
+    }
+
+    .sliderimg {
+        width: 100%;
+        height: 60vh;
+    }
+}

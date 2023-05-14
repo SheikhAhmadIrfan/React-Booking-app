@@ -1,0 +1,41 @@
+.aicontainer{
+    display: flex;
+    margin-top: 10px;
+}
+.aiwrapper{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.smalltalk{
+    background-color: purple;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.smalltalk>h1{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aibtn{
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.imgai{
+    width: 400px;
+    height: 400px;
+}

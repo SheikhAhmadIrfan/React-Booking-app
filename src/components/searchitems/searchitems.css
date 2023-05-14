@@ -1,0 +1,80 @@
+.searchitem{
+    border: 1px solid purple;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 10px;
+}
+.searchdesc{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    flex: 2;
+    margin-bottom: 10px;
+}
+.searchdetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.searchtitle{
+    font-size: 22px;
+    color: purple;
+}
+.searchdistance{
+    font-size: 12px;
+}
+.searchtaxi{
+    font-size: 12px;
+    background-color: green;
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.searchsubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.searchcancel{
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+.searchrating{
+    display: flex;
+    justify-content: space-between;
+}
+.searchrating>span{
+    font-weight: 500;
+}
+.searchrating>button{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+}
+.searchdetailtext{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: right;
+}
+.searchprice{
+    font-size: 24px;
+}
+.searchtax{
+    font-size: 14px;
+    color: purple;
+}
+.searchdetailbtn{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}

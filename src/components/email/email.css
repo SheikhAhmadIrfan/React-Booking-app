@@ -1,0 +1,30 @@
+.email{
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(98 7 98);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 55px 0px;
+    gap: 10px;
+}
+.emailcontainer>input{
+    width: 300px;
+    height: 25px;
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.emailcontainer>button{
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+}

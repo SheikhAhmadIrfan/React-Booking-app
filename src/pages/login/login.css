@@ -1,0 +1,50 @@
+.logincontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: max-content;
+}
+.loginwrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.emailopt{
+    display: flex;
+    flex-direction: column;
+}
+.emailpass{
+    display: flex;
+    flex-direction: column;
+}
+.labellogin{
+    font-size: 30px;
+    color: purple;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.linp{
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 7px 10px;
+    background-color: rgb(196, 182, 182);
+}
+.loginbtn{
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.labellogin{
+    margin-top: 15px;
+}

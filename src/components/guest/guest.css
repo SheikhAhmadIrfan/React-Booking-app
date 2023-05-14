@@ -1,0 +1,42 @@
+.guest{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.guestlist{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.guestimg{
+    width: 100%;
+}
+.guestname{
+    font-weight: bold;
+}
+.guestcity{
+    font-weight: 300;
+}
+.guestprice{
+    font-weight: 500;
+}
+.guestrating>button{
+    background-color: rgb(98 7 98);
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+@media screen and (max-width: 1024px) {
+    .guest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+}
